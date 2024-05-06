@@ -19,7 +19,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"ㅤㅤㅤㅤㅤ𝗕𝗹𝗼𝗼𝗱𝘀 𝗡𝗲𝘁𝘄𝗼𝗿𝗸 ☘️\n\n<b>○𝗕𝗹𝗼𝗼𝗱𝘀 𝗦𝗶𝘁𝗲𝗥𝗶𝗽  : @Bloods_Siterip\n○ 𝗕𝗹𝗼𝗼𝗱𝘀 𝗢𝗻𝗹𝘆𝗳𝗮𝗻𝘀  : @Bloods_Onlyfans\n○𝗖𝗿𝗲𝗮𝘁𝗼𝗿  : <a href='tg://user?id={OWNER_ID}'>This Person</a></b>",
+            text = f"ㅤㅤㅤㅤㅤ𝗕𝗹𝗼𝗼𝗱𝘀 𝗡𝗲𝘁𝘄𝗼𝗿𝗸 ☘️\n\n<b>○ 𝗕𝗹𝗼𝗼𝗱𝘀 𝗦𝗶𝘁𝗲𝗥𝗶𝗽  : @Bloods_Siterip\n○ 𝗕𝗹𝗼𝗼𝗱𝘀 𝗢𝗻𝗹𝘆𝗳𝗮𝗻𝘀  : @Bloods_Onlyfans\n○ 𝗖𝗿𝗲𝗮𝘁𝗼𝗿  : <a href='tg://user?id={OWNER_ID}'>This Person</a> </b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
