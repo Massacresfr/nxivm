@@ -105,7 +105,7 @@ async def start_command(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton("𝗕𝗹𝗼𝗼𝗱𝘀 𝗡𝗲𝘁𝘄𝗼𝗿𝗸 ☘️", callback_data = "about"),
-                    InlineKeyboardButton("Close 🔒", callback_data = "close")
+                    InlineKeyboardButton("Close 🏝️", callback_data = "close")
                 ]
             ]
         )
