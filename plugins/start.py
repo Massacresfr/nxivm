@@ -96,7 +96,7 @@ async def start_command(client: Client, message: Message):
 
             except:
                 pass
-        k = await client.send_message(chat_id = message.from_user.id, text=f"ㅤㅤㅤ❕⌠  IMPORTANT ⌡ ❕\n\n◉ 「  This video / file will be deleted in 30 minutes (Due to copyright issues  」\n\n◉ 「 Please forward this video / file to somewhere else and start downloading there 」")
+        k = await client.send_message(chat_id = message.from_user.id, text=f"ㅤㅤㅤ❕⌠  𝘐𝘔𝘗𝘖𝘙𝘛𝘈𝘕𝘛 ⌡ ❕\n\n◉ 「  𝘛𝘩𝘪𝘴 𝘷𝘪𝘥𝘦𝘰 / 𝘧𝘪𝘭𝘦 𝘸𝘪𝘭𝘭 𝘣𝘦 𝘥𝘦𝘭𝘦𝘵𝘦𝘥 𝘪𝘯 30 𝘮𝘪𝘯𝘶𝘵𝘦𝘴 (𝘋𝘶𝘦 𝘵𝘰 𝘤𝘰𝘱𝘺𝘳𝘪𝘨𝘩𝘵 𝘪𝘴𝘴𝘶𝘦𝘴  」\n\n◉ 「 𝘗𝘭𝘦𝘢𝘴𝘦 𝘧𝘰𝘳𝘸𝘢𝘳𝘥 𝘵𝘩𝘪𝘴 𝘷𝘪𝘥𝘦𝘰 / 𝘧𝘪𝘭𝘦 𝘵𝘰 𝘴𝘰𝘮𝘦𝘸𝘩𝘦𝘳𝘦 𝘦𝘭𝘴𝘦 𝘢𝘯𝘥 𝘴𝘵𝘢𝘳𝘵 𝘥𝘰𝘸𝘯𝘭𝘰𝘢𝘥𝘪𝘯𝘨 𝘵𝘩𝘦𝘳𝘦 」")
         await asyncio.sleep(SECONDS)
         for f in filesent:
             try:
